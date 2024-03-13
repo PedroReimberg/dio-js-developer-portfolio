@@ -11,23 +11,27 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/javascript.svg"
       },
       {
         "name": "NodeJs",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/nodejs.svg"
       },
       {
         "name": "Python",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/python.svg"
       },
       {
         "name": "Html",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/html.svg"
       },
       {
         "name": "Css",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/css.svg"
+      },
+      {
+        "name": "Windows",
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/windows.svg"
       }
     ],
     "softSkills": [
