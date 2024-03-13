@@ -1,0 +1,73 @@
+{
+  "name": "Pedro Reimberg",
+  "photo": "https://avatars.githubusercontent.com/u/25566327?v=4",
+  "job": "Backend Developer",
+  "location": "São Paulo, Brazil",
+  "whatsapp": "+5511973959745",
+  "email": "pedrohreimberg@gmail.com",
+  "linkedin": "linkedin.com/in/pedroreimberg/",
+  "github": "github.com/PedroReimberg",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": ""
+      },
+      {
+        "name": "NodeJs",
+        "logo": ""
+      },
+      {
+        "name": "Python",
+        "logo": ""
+      },
+      {
+        "name": "Html",
+        "logo": ""
+      },
+      {
+        "name": "Css",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Communication",
+      "Emotional Intelligence",
+      "Adaptability",
+      "Creativity",
+      "Self-learning",
+      "Creativity",
+      "Resilience"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Building a Pokédex with JavaScript",
+      "url": "https://github.com/PedroReimberg/dio-js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Contributing to an Open Source Project on GitHub",
+      "url": "https://github.com/PedroReimberg/dio-lab-open-source",
+      "github": true
+    },
+    {
+      "name": "Writing classes of a game with JavaScript",
+      "url": "https://github.com/PedroReimberg/dio-challenge-game-classes",
+      "github": true
+    }
+  ],
+  "experience": [
+    {
+      "name": "IT Intern",
+      "location": "Prefeitura Municipal de Embu-Guaçu",
+      "period": "2017 - 2018 · 1 year",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    }
+  ],
+  "languages": [
+    "Portuguese(BR) - Native",
+    "English - Advanced",
+    "Spanish - Basic"
+  ]
+}

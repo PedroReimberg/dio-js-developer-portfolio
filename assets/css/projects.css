@@ -1,0 +1,45 @@
+.projects {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    list-style: none;
+}
+
+.projects li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 1rem 1rem;
+}
+
+.projects h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.projects .github::before {
+    content: '';
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/github.svg');
+    filter: invert(1);
+    margin-right: .3rem;
+}
+
+.projects li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.425rem;
+}
+
+.projects li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.languages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content: left;
+}
+
+.languages li::before {
+    content: '';
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/done.svg');
+    filter: invert(1);
+    margin-right: .3rem;
+}

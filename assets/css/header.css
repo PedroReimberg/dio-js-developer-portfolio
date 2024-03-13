@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .photo {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+}
+
+.header .title {
+    text-align: center;
+    font-size: 2rem;
+}
+.header .title .intro{
+    font-size: 1.25rem;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .15rem;
+    font-size: 1.125rem;
+    color: white;
+    text-decoration: none;
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1.75rem;
+    height: 1.75rem;    
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(1);
+    margin-right: .5rem;
+}
+
+.information .job::before {
+    background-image: url('/assets/img/business.svg');
+}
+
+.information .location::before {
+    background-image: url('/assets/img/location.svg');
+}
+
+.information .whatsapp::before {
+    background-image: url('/assets/img/whatsapp.svg');
+}
+
+.information .email::before {
+    background-image: url('/assets/img/mail.svg');
+}
+
+.information .linkedin::before {
+    background-image: url('/assets/img/linkedin.svg');
+}
+
+.information .github::before {
+    background-image: url('/assets/img/github.svg');
+}
+
+.information a {
+    color: white;
+    text-decoration: none;
+}
+
+.information .whatsapp a:hover,
+.information .email a:hover,
+.information .linkedin a:hover,
+.information .github a:hover {
+    color: white;
+    text-decoration: underline;
+}

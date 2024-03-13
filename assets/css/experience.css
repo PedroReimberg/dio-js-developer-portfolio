@@ -1,0 +1,61 @@
+.experience {
+    margin: 1rem;
+    margin-top: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    list-style: none;
+}
+
+.experience li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+
+.experience h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.experience h4,
+.experience p,
+.experience a {
+    margin: 0;
+    padding: 0;
+    margin-left: 2.05rem;
+}
+
+.experience .location {
+    text-decoration: none;
+    color: white;
+}
+
+.experience .location:hover {
+    text-decoration: underline;
+}
+
+.experience .work::before {
+    content: '';
+    display: inline-block;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/business.svg');
+    filter: invert(1);
+    margin-right: .3rem;
+}
+
+.experience .description {
+    margin-top: 1rem;
+}
+
+.experience .description li {
+    margin: 0;
+}

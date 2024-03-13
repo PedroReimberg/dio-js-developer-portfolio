@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pedro Reimberg</title>
+
+		<!-- Font -->
+		<link
+			href="https://fonts.googleapis.com/css?family=JetBrains Mono"
+			rel="stylesheet" />
+
+		<!-- Normalize -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<!-- Css -->
+		<link rel="stylesheet" href="/assets/css/global.css" />
+		<link rel="stylesheet" href="/assets/css/header.css" />
+		<link rel="stylesheet" href="/assets/css/acordeon.css" />
+		<link rel="stylesheet" href="/assets/css/languages.css" />
+		<link rel="stylesheet" href="/assets/css/projects.css" />
+		<link rel="stylesheet" href="/assets/css/experience.css" />
+		<link rel="stylesheet" href="/assets/css/skills.css" />
+	</head>
+	<body>
+		<main class="main">
+			<!-- Header -->
+			<header class="header">
+				<img src="data/default-photo.png" class="photo" id="profile.photo" />
+
+				<h1 class="title">
+					<div class="intro">Hi, my name is<br /></div>
+					<span id="profile.name">Loading...</span>
+				</h1>
+
+				<div class="information">
+					<p class="job"><span id="profile.job">Loading...</span></p>
+					<p class="location">
+						<span id="profile.location">Loading...</span>
+					</p>
+					<p class="whatsapp">
+						<a target="_blank" id="profile.whatsapp">Loading...</a>
+					</p>
+					<p class="email">
+						<a id="profile.email">Loading... </a>
+					</p>
+					<p class="linkedin">
+						<a target="_blank" id="profile.linkedin">Loading...</a>
+					</p>
+					<p class="github">
+						<a target="_blank" id="profile.github">Loading...</a>
+					</p>
+				</div>
+			</header>
+			<section class="acordeon">
+				<button class="trigger" type="button">
+					<h2>Skills</h2>
+				</button>
+				<!-- Skills -->
+				<div class="content">
+					<section class="skills hard">
+						<h3>Hard Skills:</h3>
+						<ul class="icon">
+							<li>
+								<img src="/assets/img/javascript.svg" alt="javascript" />
+							</li>
+							<li>
+								<img src="/assets/img/nodejs.svg" alt="nodejs" />
+							</li>
+							<li>
+								<img src="/assets/img/python.svg" alt="python" />
+							</li>
+							<li>
+								<img src="/assets/img/html.svg" alt="html" />
+							</li>
+							<li>
+								<img src="/assets/img/css.svg" alt="css" />
+							</li>
+							<li>
+								<img src="/assets/img/windows.svg" alt="windows" />
+							</li>
+						</ul>
+					</section>
+					<section class="skills soft">
+						<h3>Soft Skills:</h3>
+						<ul id="profile.skills.softSkills">
+							<li>Loading...</li>
+							<li>Loading...</li>
+							<li>Loading...</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+			<section class="acordeon">
+				<button class="trigger" type="button">
+					<h2>Projects</h2>
+				</button>
+				<!-- Projects -->
+				<div class="content">
+					<ul class="projects">
+						<li>
+							<h3 class="github">Building a Pokédex with JavaScript</h3>
+							<a
+								href="https://github.com/PedroReimberg/dio-js-developer-pokedex"
+								target="_blank"
+								>github.com/PedroReimberg/dio-js-developer-pokedex</a
+							>
+						</li>
+						<li>
+							<h3 class="github">
+								Contributing to an Open Source Project on GitHub
+							</h3>
+							<a
+								href="https://github.com/PedroReimberg/dio-lab-open-source"
+								target="_blank"
+								>github.com/PedroReimberg/dio-lab-open-source</a
+							>
+						</li>
+						<li>
+							<h3 class="github">
+								Writing classes of a game with JavaScript
+							</h3>
+							<a
+								href="https://github.com/PedroReimberg/dio-challenge-game-classes"
+								target="_blank"
+								>github.com/PedroReimberg/dio-challenge-game-classes</a
+							>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="acordeon">
+				<button class="trigger" type="button">
+					<h2>Experience</h2>
+				</button>
+				<!-- Experience -->
+				<div class="content">
+					<ul class="experience">
+						<li>
+							<h3 class="work">IT Intern</h3>
+							<a
+								class="location"
+								href="https://www.embuguacu.sp.gov.br"
+								target="_blank">
+								Prefeitura Municipal de Embu-Guaçu
+							</a>
+							<p class="period">2017 - 2018 · 1 year</p>
+							<section class="description">
+								<h4>Development and Collaboration in IT Projects:</h4>
+								<ol>
+									<li>
+										Assisted in the development and implementation of
+										IT solutions, troubleshooting hardware and
+										software issues for a more efficient system in
+										municipal schools and departments.
+									</li>
+									<li>
+										Collaborated with the team to complete projects
+										and tasks within deadlines, ensuring seamless
+										integration of IT systems and applications.
+									</li>
+									<li>
+										Conducted research and analysis to identify and
+										recommend improvements in IT infrastructure,
+										resulting in increased productivity and cost
+										savings.
+									</li>
+								</ol>
+								<h4>Website Administration:</h4>
+								<ol>
+									<li>
+										Responsible for part of the maintenance of the
+										municipality's website, using Wordpress for
+										regular updates and continuous improvements.
+									</li>
+								</ol>
+								<h4>Systems and Networks Management:</h4>
+								<ol>
+									<li>
+										Installed and maintained software and networks,
+										ensuring the integrity and security of systems.
+									</li>
+									<li>
+										Implemented various systems to optimize processes
+										and improve operational efficiency.
+									</li>
+								</ol>
+								<h4>Data Security and Backup:</h4>
+								<ol>
+									<li>
+										Implemented security and backup systems,
+										contributing to the protection of sensitive data.
+									</li>
+								</ol>
+								<h4>Technical Support and End-User Training:</h4>
+								<ol>
+									<li>
+										Provided technical support and training,
+										addressing questions and resolving issues to
+										enhance user experience.
+									</li>
+								</ol>
+								<h4>Equipment Maintenance:</h4>
+								<ol>
+									<li>
+										Ensured the efficient operation of printers and
+										computers through regular maintenance of these
+										devices.
+									</li>
+								</ol>
+							</section>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="acordeon">
+				<button class="trigger" type="button">
+					<h2>Languages</h2>
+				</button>
+				<!-- Languages -->
+				<div class="content">
+					<ul class="languages">
+						<li>Portuguese(BR) - Native</li>
+						<li>English - Advanced</li>
+						<li>Spanish - Basic</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<!-- Script -->
+		<script src="assets/js/acordeon.js"></script>
+		<script src="assets/js/api.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+.skills {
+    display: flex; 
+    flex-direction: column;   
+    flex-wrap: wrap;
+    margin: 1rem;    
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.icon ul {
+    justify-content: center;
+}
+
+.skills li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills.hard li {
+    padding: 0.2rem;
+}
+
+.skills.soft li {
+    padding: 0.5rem;
+}
+
+.skills.soft li::before {
+    content: '';
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/done.svg');
+    filter: invert(1);
+    margin-right: .3rem;
+}
+
+.skills img {
+    filter: invert(1)
+}
