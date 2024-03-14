@@ -61,12 +61,53 @@
       "github": true
     }
   ],
-  "experience": [
+  "experiences": [
     {
       "name": "IT Intern",
       "location": "Prefeitura Municipal de Embu-Guaçu",
+      "url": "https://www.embuguacu.sp.gov.br",
       "period": "2017 - 2018 · 1 year",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "sections": [
+        {
+          "title": "Development and Collaboration in IT Projects:",
+          "points": [
+            "Assisted in the development and implementation of IT solutions, troubleshooting hardware and software issues for a more efficient system in municipal schools and departments.",
+            "Collaborated with the team to complete projects and tasks within deadlines, ensuring seamless integration of IT systems and applications.",
+            "Conducted research and analysis to identify and recommend improvements in IT infrastructure, resulting in increased productivity and cost savings."
+          ]
+        },
+        {
+          "title": "Website Administration:",
+          "points": [
+            "Responsible for part of the maintenance of the municipality's website, using Wordpress for regular updates and continuous improvements."
+          ]
+        },
+        {
+          "title": "Systems and Networks Management:",
+          "points": [
+            "Installed and maintained software and networks, ensuring the integrity and security of systems.",
+            "Implemented various systems to optimize processes and improve operational efficiency."
+          ]
+        },
+        {
+          "title": "Data Security and Backup:",
+          "points": [
+            "Implemented security and backup systems, contributing to the protection of sensitive data."
+          ]
+        },
+        {
+          "title": "Technical Support and End-User Training:",
+          "points": [
+            "Provided technical support and training, addressing questions and resolving issues to enhance user experience."
+          ]
+        },
+        {
+          "title": "Equipment Maintenance:",
+          "points": [
+            "Ensured the efficient operation of printers and computers through regular maintenance of these devices."
+          ]
+        }
+      ]
     }
   ],
   "languages": [
