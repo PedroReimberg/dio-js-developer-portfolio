@@ -22,16 +22,24 @@
     margin: 0.5rem 0;
 }
 
-.projects .github::before {
+.projects .github::before,
+.projects .project::before {
     content: '';
     display: inline-block;
     width: 1.125rem;
     height: 1.125rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/github.svg');
     filter: invert(1);
     margin-right: .3rem;
+}
+
+.projects .github::before {
+    background-image: url('/assets/img/github.svg');
+}
+
+.projects .project::before {
+    background-image: url('/assets/img/business.svg');
 }
 
 .projects li a {
