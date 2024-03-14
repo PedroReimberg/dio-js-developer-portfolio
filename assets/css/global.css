@@ -17,7 +17,7 @@ body {
 
 .main::before {
     content: '';
-    background-image: url('/assets/img/background/subtle-prism.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/background/subtle-prism.svg');
     background-repeat: repeat;
     opacity: 0.5;    
     display: inline-block;

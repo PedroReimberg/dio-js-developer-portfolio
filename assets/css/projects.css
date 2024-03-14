@@ -35,11 +35,11 @@
 }
 
 .projects .github::before {
-    background-image: url('/assets/img/github.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/github.svg');
 }
 
 .projects .project::before {
-    background-image: url('/assets/img/business.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/business.svg');
 }
 
 .projects li a {

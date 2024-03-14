@@ -46,27 +46,27 @@
 }
 
 .information .job::before {
-    background-image: url('/assets/img/business.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/business.svg');
 }
 
 .information .location::before {
-    background-image: url('/assets/img/location.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/location.svg');
 }
 
 .information .whatsapp::before {
-    background-image: url('/assets/img/whatsapp.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/whatsapp.svg');
 }
 
 .information .email::before {
-    background-image: url('/assets/img/mail.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/mail.svg');
 }
 
 .information .linkedin::before {
-    background-image: url('/assets/img/linkedin.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/linkedin.svg');
 }
 
 .information .github::before {
-    background-image: url('/assets/img/github.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/github.svg');
 }
 
 .information a {

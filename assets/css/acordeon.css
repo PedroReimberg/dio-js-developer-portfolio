@@ -57,7 +57,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/expand_more.svg');
+    background-image: url('https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/expand_more.svg');
     width: 2rem;
     height: 2rem;
     transition: 200ms;
