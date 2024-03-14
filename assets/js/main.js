@@ -38,6 +38,18 @@ function numberFormat(number) {
 	return `${countryCode} (${stateCode}) ${numberStart}-${numberEnd}`
 }
 
+function updateHardSkills(profileData) {
+	const hardSkills = document.getElementById('profile.skills.hardSkills')
+
+	hardSkills.innerHTML = profileData.skills.hardSkills
+		.map(
+			(skill) => `<li>
+							<img src="${skill.logo}" alt="${skill.name}" />
+						</li>`
+		)
+		.join('')
+}
+
 function updateSoftSkills(profileData) {
 	const softSkills = document.getElementById('profile.skills.softSkills')
 
@@ -46,8 +58,78 @@ function updateSoftSkills(profileData) {
 		.join('')
 }
 
+function updateLanguages(profileData) {
+	const languages = document.getElementById('profile.languages')
+
+	languages.innerHTML = profileData.languages
+		.map((language) => `<li>${language}</li>`)
+		.join('')
+}
+
+function updateProjects(profileData) {
+	const projects = document.getElementById('profile.projects')
+
+	projects.innerHTML = profileData.projects
+		.map((project) => {
+			const urlInnerText = String(project.url).substring(8)
+			return `<li>
+					<h3 ${project.github ? 'class="github' : 'class="project'}">${project.name}</h3>
+					<a
+						href="${project.url}"
+						target="_blank"
+						>${urlInnerText}</a>
+				</li>`
+		})
+		.join('')
+}
+
+function updateExperience(profileData) {
+	const experiences = document.getElementById('profile.experience')
+
+	experiences.innerHTML = profileData.experiences
+		.map((experience) => {
+			return `<li>
+						<h3 class="work">${experience.name}</h3>
+						<a
+							class="location"
+							href="${experience.url}"
+							target="_blank">
+							${experience.location}
+						</a>
+						<p class="period">${experience.period}</p>
+						<section class="description">
+							${experienceSections(experience.sections)}
+						</section>
+					</li>`
+		})
+		.join('')
+}
+
+function experienceSections(sections) {
+	return sections
+		.map((section) => {
+			return `<h4>
+						${section.title}
+					</h4>
+					<ol>
+						${section.points
+							.map((point) => {
+								return `
+								<li>${point}</li>
+								`
+							})
+							.join('')}
+					</ol>`
+		})
+		.join('')
+}
+
 ;(async () => {
 	const profileData = await fetchProfileData()
 	updateProfileInfo(profileData)
 	updateSoftSkills(profileData)
+	updateHardSkills(profileData)
+	updateLanguages(profileData)
+	updateProjects(profileData)
+	updateExperience(profileData)
 })()
