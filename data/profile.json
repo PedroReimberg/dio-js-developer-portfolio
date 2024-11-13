@@ -10,6 +10,10 @@
   "skills": {
     "hardSkills": [
       {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/java.svg"
+      },
+      {
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/javascript.svg"
       },
@@ -24,15 +28,7 @@
       {
         "name": "Html",
         "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/html.svg"
-      },
-      {
-        "name": "Css",
-        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/css.svg"
-      },
-      {
-        "name": "Windows",
-        "logo": "https://raw.githubusercontent.com/PedroReimberg/dio-js-developer-portfolio/master/assets/img/windows.svg"
-      }
+      }      
     ],
     "softSkills": [
       "Communication",
@@ -46,18 +42,18 @@
   },
   "projects": [
     {
+      "name": "Creating a Digital Bank with Java and Object-Oriented Programming",
+      "url": "https://github.com/PedroReimberg/dio-challenge-banco-digital-oo",
+      "github": true
+    },
+    {
+      "name": "Repository for My Portfolio Website",
+      "url": "https://github.com/PedroReimberg/dio-js-developer-portfolio",
+      "github": true
+    },
+    {
       "name": "Building a Pokédex with JavaScript",
       "url": "https://github.com/PedroReimberg/dio-js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Contributing to an Open Source Project on GitHub",
-      "url": "https://github.com/PedroReimberg/dio-lab-open-source",
-      "github": true
-    },
-    {
-      "name": "Writing classes of a game with JavaScript",
-      "url": "https://github.com/PedroReimberg/dio-challenge-game-classes",
       "github": true
     }
   ],
